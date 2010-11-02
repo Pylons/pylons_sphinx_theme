@@ -10,7 +10,6 @@
  */
  
 @import url("basic.css");
-@import url("nobile.css");
  
 /* -- page layout ----------------------------------------------------------- */
  
