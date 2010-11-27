@@ -308,3 +308,6 @@ table.highlighttable td {
 	padding: 0;
 }
 
+em.std-term {
+   color: #007f00;
+}
