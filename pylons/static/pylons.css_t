@@ -241,9 +241,9 @@ div.seealso {
 }
  
 div.topic {
-    background: #eee url(dialog-topic.png) no-repeat 10px 8px;
+    background: #eeeeee;
     border: 2px solid #C6C9CB;
-    padding: 10px 20px 10px 60px;
+    padding: 10px 20px;
 	border-right-style: none;
 	border-left-style: none;
 }
