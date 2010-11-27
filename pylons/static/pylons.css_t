@@ -42,7 +42,7 @@ div.document {
 div.header{
     width:100%;
     height:230px;
-    background:url(headerbg.png) repeat-x 0 top;
+    background: #f4ad32 url(headerbg.png) repeat-x 0 top;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -177,7 +177,6 @@ a, a .pre {
 }
  
 a:hover, a:hover .pre {
-    color: #e88f00;
     text-decoration: underline;
 }
  
@@ -203,15 +202,14 @@ div.body h5 { font-size: 100%; background-color: #ffffff; }
 div.body h6 { font-size: 100%; background-color: #ffffff; }
  
 a.headerlink {
-    color: #e88f00;
+    color: #1b61d6;
     font-size: 0.8em;
     padding: 0 4px 0 4px;
     text-decoration: none;
 }
  
 a.headerlink:hover {
-    background-color: #e88f00;
-    color: white;
+	text-decoration: underline;
 }
  
 div.body p, div.body dd, div.body li {
@@ -227,39 +225,39 @@ div.highlight{
 }
 
 div.note {
-    background-color: #e1ecfe;
     border: 2px solid #7a9eec;
 	border-right-style: none;
 	border-left-style: none;
-	padding: 10px 20px;
+	padding: 10px 20px 10px 60px;
+	background: #e1ecfe url(dialog-note.png) no-repeat 10px 8px;
 }
  
 div.seealso {
-    background-color: #fff6bf;
+    background: #fff6bf url(dialog-seealso.png) no-repeat 10px 8px;
     border: 2px solid #ffd324;
 	border-left-style: none;
 	border-right-style: none;
-	padding: 10px 20px;
+	padding: 10px 20px 10px 60px;
 }
  
 div.topic {
-    background-color: #eee;
+    background: #eee url(dialog-topic.png) no-repeat 10px 8px;
     border: 2px solid #C6C9CB;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 60px;
 	border-right-style: none;
 	border-left-style: none;
 }
  
 div.warning {
-    background-color: #fbe3e4;
+    background: #fbe3e4 url(dialog-warning.png) no-repeat 10px 8px;
     border: 2px solid #fbc2c4;
 	border-right-style: none;
 	border-left-style: none;
-	padding: 10px 20px;
+	padding: 10px 20px 10px 60px;
 }
  
 p.admonition-title {
-    display: inline;
+    display: none;
 }
  
 p.admonition-title:after {
@@ -295,9 +293,11 @@ tt {
 }
 
 div.viewcode-block:target {
-    background-color: #f2e8c4;
-    border-top: 1px solid #ac9;
-    border-bottom: 1px solid #ac9;
+    background-color: #fff6bf;
+    border: 2px solid #ffd324;
+	border-left-style: none;
+	border-right-style: none;
+	padding: 10px 20px;
 }
 
 table.highlighttable {
@@ -308,6 +308,10 @@ table.highlighttable td {
 	padding: 0;
 }
 
-em.std-term {
+a em.std-term {
    color: #007f00;
+}
+
+a:hover em.std-term {
+    text-decoration: underline;
 }
