@@ -9,11 +9,13 @@ To use a theme in your Sphinx documentation, follow this guide:
    or symlink this directory as _themes.
 
 2. add this to your conf.py:
-
-   sys.path.append(os.path.abspath('_themes'))
-   html_theme_path = ['_themes']
-   html_theme = 'pylons'
+```ini
+sys.path.append(os.path.abspath('_themes'))
+html_theme_path = ['_themes']
+html_theme = 'pylons'
+```
 
 The following themes exist:
 
-- 'pylons' - the standard Pylons documentation theme
+- **pylons** - the generic Pylons documentation theme
+- **pyramid** - the specific Pyramid documentation theme
