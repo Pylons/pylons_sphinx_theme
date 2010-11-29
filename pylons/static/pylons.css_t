@@ -263,11 +263,6 @@ p.admonition-title {
 p.admonition-title:after {
     content: ":";
 }
-
-p.first {
-    color: #373839;
-	font: 1.2em "Neuton", sans-serif;
-}
  
 pre {
     padding: 10px;
