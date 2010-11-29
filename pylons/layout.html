@@ -12,7 +12,6 @@
 {% endblock %}
 
 {% block header %}
-{{self.__dict__}}
 <div class="header{{ '-small' if pagename != 'index' else '' }}">
 	{%- if theme_html_logo %}
 	{% set img, ext = theme_html_logo.split('.', -1) %}
