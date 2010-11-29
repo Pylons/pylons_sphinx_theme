@@ -12,11 +12,12 @@
 {% endblock %}
 
 {% block header %}
-<div class="header">
+<div class="header{{ '-small' if pagename != 'index' else '' }}">
 	{%- if logo %}
-	<div class="logo">
+	{% set img, ext = logo.split('.', -1) %}
+	<div class="logo{{ '-small' if pagename != 'index' else '' }}">
 		<a href="{{ pathto(master_doc) }}">
-      			<img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/>
+      		<img class="logo" src="{{ pathto('_static/%s.%s' % (img, ext), 1) if pagename == 'index' else pathto('_static/%s-small.%s' % (img, ext), 1)}}" alt="Logo"/>
 		</a>
   	</div>
   	{%- endif %}

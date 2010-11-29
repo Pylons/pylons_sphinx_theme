@@ -46,9 +46,22 @@ div.header{
     border-bottom: 2px solid #ffffff;
 }
 
+div.header-small{
+    width:100%;
+    height:60px;
+    background: #f4ad32 url(headerbg.png) repeat-x 0 top;
+    border-bottom: 2px solid #ffffff;
+}
+
+
 div.logo {
     text-align: center;
     padding-top: 50px;
+}
+
+div.logo-small {
+    text-align: center;
+    padding-top: 10px;
 }
 
 div.body {
