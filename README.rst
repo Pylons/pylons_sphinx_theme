@@ -8,7 +8,7 @@ To use a theme in your Sphinx documentation, follow this guide:
    you can also use git submodules to check out the contents there
    or symlink this directory as _themes.
 
-2. add this to your conf.py:
+2. add this to your conf.py::
 
     sys.path.append(os.path.abspath('_themes'))
     html_theme_path = ['_themes']
