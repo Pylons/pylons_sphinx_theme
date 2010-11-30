@@ -324,3 +324,14 @@ a em.std-term {
 a:hover em.std-term {
     text-decoration: underline;
 }
+
+.download {
+    font-family: "Nobile", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+tt.xref {
+	font-weight: normal;
+	font-style: normal;
+}
