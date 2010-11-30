@@ -71,6 +71,7 @@ div.body {
     font-size: 1em;
 	border: 2px solid #ddd;
 	border-right-style: none;
+	overflow: auto;
 }
  
 div.footer {
