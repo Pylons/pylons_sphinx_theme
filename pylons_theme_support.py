@@ -62,3 +62,14 @@ class PylonsStyle(Style):
 
         Error:                     "#a40000 bg:#fbe3e4"
     }
+
+
+class PylonsBWStyle(Style):
+
+    background_color = "#ffffff"
+    default_style = "bw"
+
+    styles = {
+        Error:                     ""
+    }
+
