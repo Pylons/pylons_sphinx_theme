@@ -6,15 +6,15 @@
 <!--[if lte IE 6]>
 <link rel="stylesheet" href="{{ pathto('_static/ie6.css', 1) }}" type="text/css" media="screen" charset="utf-8" />
 <![endif]-->
-{%- if theme_html_favicon %}
-<link rel="shortcut icon" href="{{ pathto('_static/'+theme_html_favicon, 1) }}"/>
+{%- if theme_favicon %}
+<link rel="shortcut icon" href="{{ pathto('_static/'+theme_favicon, 1) }}"/>
 {%- endif %}
 {% endblock %}
 
 {% block header %}
 <div class="header{{ '-small' if pagename != 'index' else '' }}">
-	{%- if theme_html_logo %}
-	{% set img, ext = theme_html_logo.split('.', -1) %}
+	{%- if theme_logo %}
+	{% set img, ext = theme_logo.split('.', -1) %}
 	<div class="logo{{ '-small' if pagename != 'index' else '' }}">
 		<a href="{{ pathto(master_doc) }}">
       		<img class="logo" src="{{ pathto('_static/%s.%s' % (img, ext), 1) if pagename == 'index' else pathto('_static/%s-small.%s' % (img, ext), 1)}}" alt="Logo"/>
@@ -36,7 +36,7 @@
 		</li>
 		{%- endfor %}
     	{%- block rootrellink %}
-    	<li><a href="{{ pathto(master_doc) }}">{{ theme_html_short_title|e }}</a>{{ reldelim1 }}</li>
+    	<li><a href="{{ pathto(master_doc) }}">{{ theme_short_title|e }}</a>{{ reldelim1 }}</li>
     	{%- endblock %}
     	{%- for parent in parents %}
           <li><a href="{{ parent.link|e }}" {% if loop.last %}{{ accesskey("U") }}{% endif %}>{{ parent.title }}</a>{{ reldelim1 }}</li>
