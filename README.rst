@@ -16,5 +16,6 @@ To use a theme in your Sphinx documentation, follow this guide:
 
 The following themes exist:
 
-- **pylons** - the generic Pylons documentation theme
+- **pylons** - the generic Pylons Project documentation theme
 - **pyramid** - the specific Pyramid documentation theme
+- **pylonsfw** - the specific Pylons Framework documentation theme
