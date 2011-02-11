@@ -15,7 +15,7 @@
  
 body {
     font-family: "Nobile", sans-serif;
-    font-size: 100%;
+    font-size: 14px;
     background-color: #393939;
     color: #ffffff;
     margin: 0;
@@ -276,7 +276,7 @@ p.admonition-title {
 p.admonition-title:after {
     content: ":";
 }
- 
+
 pre {
     padding: 10px;
     background-color: #fafafa;
@@ -284,6 +284,7 @@ pre {
     line-height: 1.2em;
     border: 2px solid #C6C9CB;
     font-size: 1.1em;
+    font-family: Consolas, "andale mono", "lucida console", monospace;
     margin: 1.5em 0 1.5em 0;
 	border-right-style: none;
 	border-left-style: none;
@@ -293,7 +294,7 @@ tt {
     background-color: transparent;
     color: #222;
     font-size: 1.1em;
-    font-family: monospace;
+    font-family: Consolas, "andale mono", "lucida console", monospace;
 }
 
 .viewcode-back {
