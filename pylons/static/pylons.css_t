@@ -282,7 +282,7 @@ pre {
     background-color: #fafafa;
     color: #222;
     border: 2px solid #C6C9CB;
-    font-size: 0.9em;
+    font-size: 15px;
     font-family: Consolas, "andale mono", "lucida console", monospace;
     margin: 1.5em 0 1.5em 0;
 	border-right-style: none;
@@ -292,7 +292,7 @@ pre {
 tt {
     background-color: transparent;
     color: #222;
-    font-size: 0.9em;
+    font-size: 15px;
     font-family: Consolas, "andale mono", "lucida console", monospace;
 }
 
