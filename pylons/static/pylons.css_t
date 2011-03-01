@@ -187,6 +187,7 @@ p.sidebar-title {
 a, a .pre {
     color: #1b61d6;
     text-decoration: none;
+    word-wrap: break-word;
 }
  
 a:hover, a:hover .pre {
