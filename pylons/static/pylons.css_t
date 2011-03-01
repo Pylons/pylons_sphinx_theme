@@ -310,6 +310,7 @@ div.viewcode-block:target {
 
 table.highlighttable {
 	width: 100%;
+	clear: both;
 }
 
 table.highlighttable td {
