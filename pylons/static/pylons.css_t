@@ -15,7 +15,7 @@
  
 body {
     font-family: "Nobile", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #393939;
     color: #ffffff;
     margin: 0;
@@ -67,7 +67,7 @@ div.body {
     background-color: #ffffff;
     color: #3E4349;
     padding: 0 30px 30px 30px;
-    font-size: 1em;
+    font-size: 14px;
 	border: 2px solid #ddd;
 	border-right-style: none;
 	overflow: auto;
@@ -96,7 +96,7 @@ div.footer a:hover {
 div.related {
     line-height: 30px;
     color: #373839;
-    font-size: 0.8em;
+    font-size: 12px;
 	background-color: #eee;
 }
  
@@ -109,7 +109,7 @@ div.related ul {
 }
  
 div.sphinxsidebar {
-    font-size: 0.75em;
+    font-size: 12px;
     line-height: 1.5em;
 }
 
@@ -217,7 +217,7 @@ div.body h6 { font-size: 100%; background-color: #ffffff; }
  
 a.headerlink {
     color: #1b61d6;
-    font-size: 0.8em;
+    font-size: 12px;
     padding: 0 4px 0 4px;
     text-decoration: none;
 }
