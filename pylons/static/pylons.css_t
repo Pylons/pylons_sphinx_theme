@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+    
 div.documentwrapper {
     float: left;
     width: 100%;
@@ -203,7 +203,7 @@ div.body h6 {
     font-family: "NeutonRegular", sans-serif;
     background-color: #ffffff;
     font-weight: normal;
-    color: #373839;
+    color: #222;
     margin: 30px 0px 10px 0px;
     padding: 5px 0;
 }
@@ -278,16 +278,15 @@ p.admonition-title:after {
     content: ":";
 }
 
-pre {
-    padding: 10px;
-    background-color: #fafafa;
-    color: #222;
-    border: 2px solid #C6C9CB;
-    font-size: 14px;
+pre, code {
     font-family: Consolas, "andale mono", "lucida console", monospace;
-    margin: 1.5em 0 1.5em 0;
-	border-right-style: none;
-	border-left-style: none;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 0;
+    border-top: 2px solid #c6c9cb;
+    border-bottom: 2px solid #c6c9cb;
 }
  
 tt {
