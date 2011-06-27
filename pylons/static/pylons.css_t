@@ -105,7 +105,7 @@ div.related a {
 }
 
 div.related ul {
-	padding-left: 240px;
+	padding: 0 150px 0 240px;
 }
  
 div.sphinxsidebar {
