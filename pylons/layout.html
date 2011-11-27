@@ -13,7 +13,7 @@
 
 {% block header %}
 
-{% if theme_in_progress %}
+{% if theme_in_progress|tobool %}
 <img style="position: fixed; display: block; width: 165px; height: 165px; bottom: 60px; right: 0; border: 0;" src="{{ pathto('_static/in_progress.png', 1) }}" alt="Documentation in progress"></a>
 {% endif %}
 
