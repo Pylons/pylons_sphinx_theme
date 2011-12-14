@@ -250,7 +250,7 @@ a.headerlink:hover {
 	text-decoration: underline;
 }
  
-div.body p, div.body dd, div.body li {
+div.body p, div.body dd, div.body dt, div.body li {
     line-height: 1.5em;
 }
  
