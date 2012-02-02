@@ -316,7 +316,6 @@ pre, code {
 tt {
     background-color: transparent;
     color: #222;
-    font-size: 14px;
     font-family: Consolas, "andale mono", "lucida console", monospace;
 }
 
