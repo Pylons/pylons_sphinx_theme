@@ -358,3 +358,15 @@ tt.xref {
 	font-weight: normal;
 	font-style: normal;
 }
+
+span.methodcategory {
+    font-family: "NeutonRegular", sans-serif;
+    background-color: #ffffff;
+    font-weight: normal;
+    color: #222;
+    margin: 30px 0px 10px 0px;
+    padding: 5px 0;
+    font-size: 2.00em;
+    line-height: 1;
+    margin-bottom: 0.75em;
+}
