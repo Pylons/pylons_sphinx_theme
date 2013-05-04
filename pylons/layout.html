@@ -14,7 +14,11 @@
 {% block header %}
 
 {% if theme_in_progress|tobool %}
-<img style="position: fixed; display: block; width: 165px; height: 165px; bottom: 60px; right: 0; border: 0;" src="{{ pathto('_static/in_progress.png', 1) }}" alt="Documentation in progress"></a>
+    <img style="position: fixed; display: block; width: 165px; height: 165px; bottom: 60px; right: 0; border: 0;" src="{{ pathto('_static/in_progress.png', 1) }}" alt="Documentation in progress" />
+{% endif %}
+
+{% if theme_outdated|tobool %}
+    <a href="{{ theme_latest_url}}"><img style="position: fixed; display: block; width: 165px; height: 165px; bottom: 60px; right: 0; border: 0;" src="{{ pathto('_static/in_progress.png', 1) }}" alt="Documentation is outdated" /></a>
 {% endif %}
 
 {% if theme_github_url %}
