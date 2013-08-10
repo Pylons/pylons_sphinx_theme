@@ -1,0 +1,1 @@
+- Fixed Pyramid favicon border transparency.
