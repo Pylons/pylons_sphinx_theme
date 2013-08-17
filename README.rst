@@ -14,6 +14,14 @@ To use a theme in your Sphinx documentation, follow this guide:
     html_theme_path = ['_themes']
     html_theme = 'pylons'
 
+3. (optional) set a canonical root url in conf.py::
+
+   html_theme_options = dict(
+     canonical_url='http://the_root_domain/latest/docs/'
+   )
+   
+The url points to the root of the documentation. Requires a trailing slash.
+
 The following themes exist:
 
 - **pylons** - the generic Pylons Project documentation theme
