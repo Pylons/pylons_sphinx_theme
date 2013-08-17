@@ -1,1 +1,4 @@
+- Added canonical url configuration for google search engine optimization.
+  See README.txt
+
 - Fixed Pyramid favicon border transparency.
