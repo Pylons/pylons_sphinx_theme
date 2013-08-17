@@ -109,3 +109,4 @@ Contributors
 - Blaise Laflamme, 2010/11/09
 - Ben Hohner, 2013/08/10
 - Steve Piercy, 2013/08/10
+- Arndt Droullier, 2013/08/17
