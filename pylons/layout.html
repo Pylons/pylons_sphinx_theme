@@ -22,7 +22,7 @@
 {% endif %}
 
 {% if theme_outdated|tobool %}
-    <a href="{{ latest_url }}"><img style="position: fixed; display: block; width: 165px; height: 165px; bottom: 60px; right: 0; border: 0;" src="{{ pathto('_static/outdated.png', 1) }}" alt="Documentation is outdated" /></a>
+    <div style="bottom: 60px; right: 20px;position: fixed;"><a href="{{ theme_latest_url }}" class="btn btn-large btn-danger"><strong>&gt;</strong> Read the latest version of this page</a></div>
 {% endif %}
 
 {% if display_github %}
