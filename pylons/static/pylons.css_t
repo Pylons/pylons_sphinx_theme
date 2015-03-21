@@ -302,7 +302,7 @@ p.admonition-title:after {
     content: ":";
 }
 
-pre, code {
+pre {
     font-family: Consolas, "andale mono", "lucida console", monospace;
     font-size: 14px;
     line-height: 17px;
@@ -313,7 +313,7 @@ pre, code {
     border-bottom: 2px solid #c6c9cb;
 }
 
-tt {
+tt, code {
     background-color: transparent;
     color: #222;
     font-family: Consolas, "andale mono", "lucida console", monospace;
@@ -340,12 +340,21 @@ table.highlighttable td {
 	padding: 0;
 }
 
-a em.std-term {
+a em.std-term, a span.std-term {
    color: #007f00;
 }
 
-a:hover em.std-term {
+a:hover em.std-term, a:hover span.std-term {
     text-decoration: underline;
+    font-style: italic;
+}
+
+a.reference.internal {
+    font-style: italic;
+}
+
+.viewcode-link {
+    font-style: normal;
 }
 
 .download {
@@ -354,7 +363,7 @@ a:hover em.std-term {
 	font-style: normal;
 }
 
-tt.xref {
+tt.xref, code.xref {
 	font-weight: normal;
 	font-style: normal;
 }
