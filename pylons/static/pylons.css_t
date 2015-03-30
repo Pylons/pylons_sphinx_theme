@@ -350,7 +350,10 @@ a:hover em.std-term, a:hover span.std-term {
 }
 
 a.reference.internal {
-    font-style: italic;
+}
+
+a.reference.internal em {
+    font-style: normal;
 }
 
 .viewcode-link {
