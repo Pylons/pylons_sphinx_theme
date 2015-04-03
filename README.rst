@@ -16,9 +16,9 @@ To use a theme in your Sphinx documentation, follow this guide:
 
 3. (optional) set a canonical root url in conf.py::
 
-   html_theme_options = dict(
-     canonical_url='http://the_root_domain/latest/docs/'
-   )
+    html_theme_options = dict(
+        canonical_url='http://the_root_domain/latest/docs/'
+    )
    
 The url points to the root of the documentation. Requires a trailing slash.
 
