@@ -146,9 +146,19 @@ div.sphinxsidebar p.topless {
 }
 
 div.sphinxsidebar ul {
-    margin: 10px 20px;
+    margin: 10px;
     padding: 0;
     color: #373839;
+}
+
+div.sphinxsidebar ul ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points {
+    margin-left: 15px;
 }
 
 div.sphinxsidebar a {
