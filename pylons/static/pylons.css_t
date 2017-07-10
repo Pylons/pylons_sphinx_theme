@@ -146,7 +146,7 @@ div.sphinxsidebar p.topless {
 }
 
 div.sphinxsidebar ul {
-    margin: 10px 20px;
+    margin: 10px 0 10px 20px;
     padding: 0;
     color: #373839;
 }
